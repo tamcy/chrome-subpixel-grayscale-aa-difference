@@ -1,0 +1,35 @@
+body {
+    font-family: "Chiron Hei HK WS";
+    font-weight: 300;
+}
+
+body, a {
+    background: black;
+    color: white;
+}
+
+body.light, body.light a {
+    background: white;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sl-container {
+    max-width: 300px;
+}
+
+.sl-flex {
+    display: flex;
+}
+
+.right-sidebar-container {
+    order: 2;
+    position: relative;
+}
+
+.right-sidebar {
+    position: fixed;
+}
