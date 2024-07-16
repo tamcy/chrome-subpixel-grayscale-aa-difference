@@ -3,10 +3,35 @@ body {
     font-weight: 300;
 }
 
+
 body, a {
     background: black;
     color: white;
 }
+
+ul {
+}
+
+h2 {
+    font-weight: inherit;
+    font-size: 1.3rem;
+    margin: 2rem 0 0 0;
+}
+
+.w250 {
+    font-weight: 250;
+    padding: 8px;
+}
+
+.w300 {
+    font-weight: 300;
+    padding: 8px;
+}
+
+.w400 {
+    font-weight: 400;
+}
+
 
 body.light, body.light a {
     background: white;
